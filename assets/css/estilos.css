@@ -1,0 +1,167 @@
+header{
+    background: #1a6a14;
+}
+header .logo, header .lista, header .buscador{
+    display: inline-block;
+}
+header .logo{
+    padding-left: 150px;
+    padding-right: 10px;
+    margin: 20px 0px 20px 0px;
+}
+header .logo img{
+    width: 300px;
+}
+header .lista{
+    vertical-align: top;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+header .lista ul li{
+    display: inline-block;
+    margin-right: 18px;
+}
+header .lista ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+header .buscador{
+    float: right;
+    margin-top: 45px;
+    padding-right: 210px;
+   /* margin: 50px 350px 0px 0px;*/
+}
+header .buscador a{
+    background: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50%;
+}
+nav{
+    padding-left: 150px;
+    margin: 0 0 50px 0;
+}
+nav ul{
+    padding: 0px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #676767;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    -webkit-box-shadow: 0px -2px 5px -1px #f1f1f1;
+    -moz-box-shadow: 0px -2px 5px -1px #f1f1f1;
+    box-shadow: 0px -2px 5px -1px #f1f1f1;
+    text-align: center;
+    padding: 30px 0px;
+}
+footer.lista{
+    margin: 30px 0px 30px 0px;
+}
+footer .lista ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer .lista ul li::after {
+    content: "|";
+    margin-left: 20px;
+    
+}
+footer .lista ul li:last-child::after{
+    content: "";
+}
+footer .lista ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #494949;
+    font-size: 14px;
+}
+footer .lista ul li:nth-child(2) a{
+    text-transform: capitalize;
+}
+footer .texto{
+    color: #cfcfcf;
+    width: 60%;
+    margin: 0px auto;
+    font-size: 13px;
+}
+section{
+    padding-left: 150px;
+    margin-right: 450px;
+    margin-bottom: 100px;
+}
+section .titulo{
+    border-bottom: 1px  solid #e7e7e7;
+    margin: 30px 0 20px 0;
+}
+/*section:nth-child(2)::after .lastest{
+    -webkit-box-shadow: 0px -2px 5px -1px #f1f1f1;
+    -moz-box-shadow: 0px -2px 5px -1px #f1f1f1;
+    box-shadow: 0px -2px 5px -1px #f1f1f1;
+}*/
+section .articulos{
+    margin: 0px;
+}
+section .titulo .icono p{
+    margin: 0px;
+    background: #1a6a14;
+    padding: 8px 10px;
+    color: white; 
+}
+section .titulo .icono, section .titulo .lastest{
+    display: inline-block;
+}
+section .titulo .lastest h3{
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+}
+section article{
+    display: inline-block;
+    padding-right: 50px;
+    width: auto;
+}
+section .articulos article .caratula img{
+    width: 100px;
+}
+
+section .articulos article .caratula, section  .articulos article .descripcion {
+    display: inline-block;
+}
+/*section  .articulos article .descripcion{
+    vertical-align: top;
+}*/
+section article .descripcion .chapter .capitulos ul {
+    list-style: none;
+    padding: 0px;
+    
+}
+section  .articulos article .descripcion .nombre h5 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+section .articulos article .descripcion .chapter, section .articulos article .descripcion .nombre, section .articulos article .calificacion {
+    margin: 0px;
+}
+
+section article .descripcion ul li{
+    margin-bottom: 15px;
+}
+section .articulos article .descripcion .chapter .capitulos ul li a{
+    list-style: none;
+    text-decoration: none;
+    background: #ebebeb;
+    padding: 5px 20px;
+}
+ 
